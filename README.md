@@ -1,1 +1,2 @@
-# Algoritmos-e-Estruturas-De-Dados
+# Algoritmos e Estruturas de Dados
+Esta matéria do curso de ciência da computação da FURB, tem a finalidade de ensinar o estudante a compreender o funcionamento e a importância de algoritmos e formas de armazenar dados, apresentados ao decorrer das aulas.

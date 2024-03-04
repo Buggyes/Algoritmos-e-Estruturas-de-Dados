@@ -1,8 +1,9 @@
+package Ex2;
 import java.util.Scanner;
 
 public class Ex2 {
 
-	public static void printStringArray(String[] arr) {
+	private static void printStringArray(String[] arr) {
 		System.out.println("=====================================================");
 		for (int i = 0; i < arr.length; i++) {
 			if (!(arr[i].equals(""))) {

@@ -5,6 +5,7 @@
 Administrar dados sempre foi uma tarefa difícil, especialmente em cenários onde é necessário ler Terabytes de dados de maneira ágil (ex: Contas bancárias, CPFs, etc.). Com isso em mente, é essencial saber como manusear tais com eficiência.
 
 ## Estruturas:
+> Os exemplos foram escritos em C#
 ### Array (estático e dinâmico):
 #### Estático:
 É declarado com um tamanho constante, geralmente utilizado em cenários onde se tem certeza de que não precisará alterar o tamanho do array (ex: armazenar dias da semana).

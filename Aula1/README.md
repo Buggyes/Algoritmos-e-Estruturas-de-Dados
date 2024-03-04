@@ -8,7 +8,7 @@ Administrar dados sempre foi uma tarefa difícil, especialmente em cenários ond
 ### Array (estático e dinâmico):
 #### Estático:
 É declarado com um tamanho constante, geralmente utilizado em cenários onde se tem certeza de que não precisará alterar o tamanho do array (ex: armazenar dias da semana).
-!exemplo de array (https://github.com/Buggyes/Algoritmos-e-Estruturas-de-Dados/blob/main/)
+![exemplo de array](https://github.com/Buggyes/Algoritmos-e-Estruturas-de-Dados/blob/main/)
 #### Dinâmico:
 
 ### Lista:

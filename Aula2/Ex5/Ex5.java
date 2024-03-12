@@ -1,6 +1,7 @@
 package Aula2.Ex5;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Ex5 {
@@ -66,14 +67,35 @@ public class Ex5 {
                     users.put(newUser.name, newUser);
                 }
                     break;
-                case "2":
-
+                case "2": {
+                    users.forEach((k, u) -> System.out.println(k + ": " + u.password));
+                }
                     break;
                 case "3":
-
+                    System.out.println("Usuários: ");
+                    for (Map.Entry<String, User> element : users.entrySet()) {
+                        User u = element.getValue();
+                        if (u.permission == Permission.commonUser) {
+                            System.out.println(u.name + ": " + u.password);
+                        }
+                    }
+                    System.out.println("Funcionários: ");
+                    for (Map.Entry<String, User> element : users.entrySet()) {
+                        User u = element.getValue();
+                        if (u.permission == Permission.employee) {
+                            System.out.println(u.name + ": " + u.password);
+                        }
+                    }
+                    System.out.println("Administradores: ");
+                    for (Map.Entry<String, User> element : users.entrySet()) {
+                        User u = element.getValue();
+                        if (u.permission == Permission.admin) {
+                            System.out.println(u.name + ": " + u.password);
+                        }
+                    }
                     break;
                 case "4":
-
+                
                     break;
                 case "5":
 

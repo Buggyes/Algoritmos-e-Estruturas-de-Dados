@@ -1,4 +1,4 @@
-###O motivo pelo qual escolhi usar Queue:
+### O motivo pelo qual escolhi usar Queue:
 O enúnciado em nenhum momento pediu para de alguma forma iterar sobre a lista de tarefas, ele apenas pedia para mostrar a próxima tarefa a ser concluída ou concluir a próxima tarefa, então, vi que Queue era a melhor opção entre Stack e List.
 
 Penso que utilizar algo além do Queue seria considerado um "overkill", pois eu estaria usando uma estrutura de dados mais robusta para um problema simples, por exemplo, se eu tivesse utilizado uma Stack, eu teria concluído o exercício da mesma forma, porém estaria utilizando mais recursos já que Stack possuí muito mais métodos que uma Queue, dos quais eu não estaria me aproveitando por causa dos requerimentos do enunciado.
